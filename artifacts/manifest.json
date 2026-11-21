@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+  "created": "2026-11-20T19:27:12Z",
+  "harness": {
+    "name": "pi-flash",
+    "model_api": "google-cloud/gemini-3.8-flash",
+    "tree": "2ee83c616ba518a41e5aba146fd9300ef76fa9f51cd19c92fa2ce124ccdcd09d",
+    "files": {
+      ".gitignore": "100644 e8b2b095b1dd3217a34ac297eb10cef3df71e833",
+      "LICENSE": "100644 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "README.md": "100644 0ed9af3e9f3fb94f9cd69607ca3704812f76ea86",
+      "harness.py": "100644 a3612728581bef37112ca17643efacb215e92632",
+      "package-lock.json": "100644 5dba6d2880e4966fca650af70db1c7345d14d20b",
+      "package.json": "100644 701346d5e2e0f3fe4eee265d535319c0b8f634c5",
+      "requirements.txt": "100644 7bc03d775075fc452cc88d8aa6292087dd8eec65",
+      "serve.py": "100644 a0b209c2c38dc8204a48d1eb9e48b123f646707f",
+      "submission.yaml": "100644 1efd52c83dee1f473f5c27011d076a2df42df257",
+      "task-tools.ts": "100644 f0f8e7043d3d4c56e8c473b6af0686145706811b",
+      "taskbridge.py": "100644 26cc3d6cf8dbcaed859731ce9a6881f4ca8bfe40"
+    },
+    "commit": "d1f05cec8396c89a7f099522348e7dd391e2f38e",
+    "dirty": false
+  },
+  "tasks": {
+    "mv-conveyance-study": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "mv-conveyance-study",
+      "trial": "mv-conveyance-study__hJMaAQp",
+      "ended": "ok",
+      "reward": 0.104987,
+      "tree": "2ee83c616ba518a41e5aba146fd9300ef76fa9f51cd19c92fa2ce124ccdcd09d",
+      "files": {
+        "filesystem/final_batch4__electrical_task12_conveyance_study__blind/output/submission.zip": "21e63e5ea6aca4cae56af6ebb6dbbc8c88cfbf1f"
+      },
+      "final_message": "0caf518a848a254482f166a082fd5066143c1718",
+      "deleted": [],
+      "skipped": []
+    },
+    "frame-extension-method": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "frame-extension-method",
+      "trial": "frame-extension-method__GtPW3Ch",
+      "ended": "ok",
+      "reward": 0.3583,
+      "tree": "2ee83c616ba518a41e5aba146fd9300ef76fa9f51cd19c92fa2ce124ccdcd09d",
+      "files": {
+        "filesystem/field_eng__constructability_4d__blind/output/submission.zip": "e01beec221ec56455b1e0ae9c9069680282898ce"
+      },
+      "final_message": "0caf518a848a254482f166a082fd5066143c1718",
+      "deleted": [],
+      "skipped": []
+    },
+    "landscape-sheet-revision": {
+      "run": "landscape-sheet-revision",
+      "trial": "landscape-sheet-revision__rbf4XdG",
+      "ended": "ok",
+      "reward": 1.0,
+      "tree": "2ee83c616ba518a41e5aba146fd9300ef76fa9f51cd19c92fa2ce124ccdcd09d",
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "files": {
+        "app/files/generate_deliverables.py": "7a0ae59b6654c1c39097ad9080181611b0f70457",
+        "app/files/make_audit_md.py": "7ee53e3845e94688f0fe39e3c1547f36555a4cda",
+        "app/files/make_docx_and_audit.py": "fb06255a392165b4a5f055efb67675592e76c26a",
+        "app/files/make_full_deliverables.py": "534d1a1634484c5cdb583dbe93dbdc509995aeb5",
+        "app/files/output/MEMORANDUM_Callaway_Land_Partners_2026-10-31.docx": "deafdac821f3c1bacb1f0e3c5d7f3e383dda1c92",
+        "app/files/output/MEMORANDUM_Callaway_Land_Partners_2026-10-31.md": "991912ac49fb11e94c8431be909e8bca50f599c5",
+        "app/files/output/Technical_Audit_and_Resubmittal_Risk_Analysis.md": "5e92e80ee3676eeccf5bdbc68b46f72d3298dcb8"
+      },
+      "final_message": "166a76f8dc13eb0866ab87bd21e6742bcb4b6890",
+      "deleted": [],
+      "skipped": []
+    }
+  }
+}
